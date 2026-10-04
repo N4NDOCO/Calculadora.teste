@@ -1,4 +1,4 @@
-console.log("Olá amigo, bem vindo a minha calculadora !!")
+console.log("Olá amigo, bem vindo a minha calculadora !!!")
 
 function tela(){
 
