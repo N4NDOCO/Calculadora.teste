@@ -1,1 +1,64 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+    <title>Calculadora V1</title>
+</head>
+
+<body>
+
+    <main class="mainmenu">
+
+    </main>
+
+<script>
+
+   console.log("Olá amigo, bem vindo a minha calculadora !!")
+
+function tela(){
+
+let calculeN1 = Number(prompt("Calcule o primeiro números aqui:"));
+console.log("Número 1: " + calculeN1);
+
+let sinal = prompt("Digite os sinais + - x / % aqui:");
+console.log("Sinal: " + sinal);
+
+let calculeN2 = Number(prompt("Calcule os segundo número aqui:"));
+console.log("Número 2: " + calculeN2);
+
+if(sinal == "+") {
+console.log(calculeN1 + calculeN2);
+  
+    }
+
+else if(sinal == "-") {
+console.log(calculeN1 - calculeN2);
+  
+    }
+
+else if(sinal == "x") {
+console.log(calculeN1 * calculeN2);
+  
+    }
+
+else if(sinal == "/") {
+console.log(calculeN1 / calculeN2);
+  
+    }
+
+else if(sinal == "%") {
+console.log(calculeN1 * calculeN2 / 100);
+  
+    }
+
+}
+
+tela();
+
+  
+</script>
+  
+</body>
+
+</html>
